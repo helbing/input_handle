@@ -1,0 +1,27 @@
+{
+  "name": "helbing/input_handle",
+  "description": "数据过滤库，数据类型处理，SQL注入，XSS过滤等",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "helbing",
+      "email": "helbingxxx@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Helbing\\Handle\\": "src/Helbing/Handle"
+    }
+  },
+  "scripts": {
+    "test": [
+      "phpunit"
+    ]
+  },
+  "require": {
+    "phpunit/phpunit": "^7.0@dev",
+    "voku/anti-xss": "^3.0@dev"
+  }
+}

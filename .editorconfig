@@ -1,0 +1,20 @@
+root = true
+
+[*]
+# 换行符
+end_of_line = lf
+# 以新一行结束
+insert_final_newline = true
+# 编码
+charset = utf-8
+# 缩进四个空格
+indent_style = space
+indent_size = 4
+# 移除换行符前的空格
+trim_trailing_whitespace = true
+
+[{*.json, .eslintrc}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
