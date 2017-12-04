@@ -21,7 +21,7 @@
     ]
   },
   "require": {
-    "phpunit/phpunit": "^7.0@dev",
+    "phpunit/phpunit": "^6.5@dev",
     "voku/anti-xss": "^3.0@dev"
   }
 }
