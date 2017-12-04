@@ -144,7 +144,7 @@ class InputHandle
     {
         // 数据类型为数组，但是输入的类型不是数组的处理
         if ($dataType != self::TYPE_ARRAY && is_array($input)) {
-            $input = empty($input) ? '' : strval($input[0]);
+            $input = empty($input) ? '' : strval(current($input));
         }
 
         if ($dataType == self::TYPE_INT) {
