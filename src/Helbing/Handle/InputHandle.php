@@ -63,6 +63,10 @@ class InputHandle
     public function inputHandle($input, $dataType, $defaultVal = null, $otherHandle = null)
     {
         try {
+            if (is_null($input)) {
+                return $defaultVal;
+            }
+
             // 数据类型处理
             $input = $this->dateTypeHandle($input, $dataType);
 
